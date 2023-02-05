@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T03:42:12.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Y1pkGr-SdTqM0w901aaN" version="20.8.15" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-05T03:57:24.309Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ya8-dAorijNeMHNm6YMA" version="20.8.15" type="github" pages="2">
   <diagram name="第 1 页" id="3zPPjx7S2HPDRmVprN2L">
     <mxGraphModel dx="2133" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -156,24 +156,26 @@
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-36" value="下载器下载" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=14;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJF8WgJsKNdLkxC4-ePz-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.935;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#6C8EBF;strokeWidth=2;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" source="qJF8WgJsKNdLkxC4-ePz-37" target="qJF8WgJsKNdLkxC4-ePz-39">
+        <mxCell id="qJF8WgJsKNdLkxC4-ePz-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6C8EBF;strokeWidth=2;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=link;" edge="1" parent="1" target="qJF8WgJsKNdLkxC4-ePz-39">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="738" as="sourcePoint" />
+            <mxPoint x="2114.04" y="530.8599999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2114" y="740" />
+              <mxPoint x="2114" y="738" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-37" value="接收导航消息&lt;br&gt;与网络进程建立管道" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1910" y="710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qJF8WgJsKNdLkxC4-ePz-39" value="读取响应体" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A680B8;strokeWidth=2;fontSize=14;fillColor=#E1D5E7;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="465" width="560" height="65" as="geometry" />
+        <mxCell id="qJF8WgJsKNdLkxC4-ePz-39" value="读取响应体" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;strokeWidth=2;fontSize=14;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="430" width="660" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-45" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#6C8EBF;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="qJF8WgJsKNdLkxC4-ePz-43" target="qJF8WgJsKNdLkxC4-ePz-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qJF8WgJsKNdLkxC4-ePz-43" value="确认提交" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="2170" y="710" width="120" height="60" as="geometry" />
+        <mxCell id="qJF8WgJsKNdLkxC4-ePz-43" value="确认提交&lt;br&gt;（这时候数据接收并没完成）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-44" value="接收确认提交消息" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="2340" y="220" width="120" height="60" as="geometry" />
@@ -182,10 +184,13 @@
           <mxGeometry x="2520" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-47" value="准备解析渲染新的页面" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=1;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="2390" y="710" width="120" height="60" as="geometry" />
+          <mxGeometry x="2350" y="710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qJF8WgJsKNdLkxC4-ePz-49" value="准备渲染进程&lt;br&gt;（最新Chrome架构不需要）" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=14;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qJF8WgJsKNdLkxC4-ePz-50" value="网络进程对响应体进行安全检查" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A680B8;strokeWidth=2;fontSize=14;fillColor=#E1D5E7;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="510" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
